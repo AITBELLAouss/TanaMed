@@ -1,38 +1,345 @@
-.App {
+.Nave{
+  position: sticky;
+  top: 0%;
+  z-index: 999;
+  background: rgb(222, 229, 231);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  width: 100%;
+  height: 70px;
+}
+
+.logo{
+  position: absolute;
+  margin-left: 85%;
+  height: 60px;
+  width: 120px;
+}
+
+.navigation ul{
+  list-style: none;
+  white-space: nowrap;
+  max-width: 1200px;
+  margin: 0px auto;
+
+}
+
+.navigation li{
+  display: inline-block;
+  width: 10%;
+  font-size: 20px;
+}
+
+
+nav li:hover{
+  border-bottom: 3px solid ;
+}
+
+.home{
+  margin-top: -50px;
+  z-index: -1;
+  width: 100%;
+  height: 600px;
+  background-image: url(/src/pics/Healthcare-1.jpg);
+}
+
+
+
+.description{
+  position: absolute;
+  margin-left: 5%;
+  margin-top: 100px;
+  padding: 10px;
+  font-size: 150%;
+  
+}
+
+.quote{
+  margin-top: 20px;
+  color: #021729;
+  font-size: 20px;
+}
+
+.small{
+  font-size: 15px;
+}
+
+
+.description span{
+  font-size: 150%;
+  color: black;
+}
+
+.navigation .p{
+  padding: 20px 10px;
+  cursor: pointer;
+  display: inline-block; 
+  width: 15%;
+  font-size: 30px 10px;
+}
+
+.logophone{
+  position: absolute;
+  margin-left: 85%;
+  margin-top: -100vw;
+  height: 50px;
+  width: 50px;
+}
+
+.hamb{
+  display: none;
+}
+
+.ulham{
+  list-style: none;
+}
+
+
+/*------------produte css------------*/
+
+.product{
+  text-align: center;
+  background-color: rgb(248, 242, 242,0.8);
+  z-index: 2;
+  
+}
+
+.product img{
+  width: 300px;
+  border-radius: 20px;
+}
+
+.product div{
+  width: 300px;
+  height: 360px;
+  background-color: hsl(208, 87%, 67%,0.5);
+  margin-left: 10%;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.product div:hover{
+  background-color: hsl(208, 87%, 67%,1);
+}
+
+.product p{
+  width: 300px;
+  padding-bottom: 20px;
+}
+
+.product .B{
+  margin-left: 525px;
+  margin-top: -360px;
+}
+
+.product .C{
+  margin-left: 900px;
+  margin-top: -360px;
+}
+
+.product .pole{
+  margin-left: 525px;
+}
+
+.product h1{
+  margin-left: 37%;
+  color: rgb(250, 250, 250);
+  position: sticky;
+  top: 50px;
+  background-color: #60b0f4;
+  height: fit-content;
+  width: 25%;
+  padding: 10px;
+  border-radius: 20px;
+  z-index: 99;
+}
+
+/* ----------contact us css----------- */
+
+.contactUs{
+  background-color: black;
+  text-align: center;
+  width: 100%;
+  color: white;
+  height: fit-content;
+}
+
+.infoC{
+  margin-top: 50px;
+  width: 40%;
+  text-align: left;
+  font-size: 1.2rem;
+  height: 200px;
+  padding: 1rem 2rem;
+  line-height: 250%;
+}
+
+.form{
+  width: 40%;
+  margin-left: 50%;
+  margin-top: -250px;
+}
+
+label {
+  font-size: 1.5rem;
+}
+
+input,
+textarea {
+  width: 95%;
+  height: 10px;
+  font-size: 1rem;
+  padding: 1.2rem;
+  color: #BCB4B4;
+  background-color: #1E1E1E;;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  margin-top: 1rem;
+}
+input{
+  text-align: center;
+}
+textarea {
+  min-height: 250px;
+  resize: vertical;
+}
+.button {
+  background-color: #BCB4B4;
+  color: black;
+  font-size: 1rem;
+  height: 40px;
+  display: inline-block;
+  outline: none;
+  border: none;
+  padding: 1rem 4rem;
+  border-radius: 8px;
+  cursor: pointer;
+  width: fit-content;
+}
+
+
+
+/*-------About css-------*/
+
+.aboutjs{
+  background-color: rgb(248, 242, 242,0.8);
+}
+
+.aboutjs h1{
+  text-align: center;
+  margin-left: 37%;
+  color: rgb(250, 250, 250);
+  position: sticky;
+  top: 50px;
+  background-color: #60b0f4;
+  height: fit-content;
+  width: 25%;
+  padding: 10px;
+  border-radius: 20px;
+  z-index: 99;
+}
+
+@media only screen and (max-width: 890px){
+  .logophone{
+    margin-top: 0px;
+    margin-left: 80%;
+  }
+  .logo{
+    margin-top: -100vw;
+  }
+  nav ul{
+    display: none;
+  }
+
+  .ulham li {
+    cursor: pointer;
+    padding: 10px 0px;
+    color: white;
+  }
+
+  .ulham li:hover{
+    color: #60b0f4;
+  }
+
+  .hamb{
+    display: flex;
+    align-items: center;
+  }
+
+  .ulham{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 40px;
+    margin-left: 10px;
+    width: 100px;
+    background: #181818;
+    border-radius: 20px;
+  }
+
+  .hambmenu{
+    z-index: 3;
+    cursor: pointer;
+    margin-left: 5%;
+    padding: 5px;
+  }
+
+  .Nave{
+    height: 50px;
+  }
+
+  /*product phone*/
+
+  .product h1{
+    font-size: 15px;
+    top: 50px;
+  }
+
+  .product .B{
+    margin-left: 10%;
+    margin-top: 20px;
+  }
+  
+  .product .C{
+    margin-left: 10%;
+    margin-top: 20px;
+  }
+  
+  .product .pole{
+    margin-left: 10%;
+  }
+  /*contact us phone*/
+
+  input,
+textarea {
+  width: 80%;
+}
+
+.infoC{
+  margin-top: 10px;
+  width: fit-content;
+  height: fit-content;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.form{
+  width: 100%;
+  margin-left: 0%;
+  margin-top: 50px;
 }
+  
+  /*about phone*/
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .aboutjs h1{
+    font-size: 15px;
+    top: 50px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+footer{
+  background-color: black;
+  text-align: center;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  text-decoration: none;
 }

@@ -1,23 +1,22 @@
-import logo from './logo.svg';
+import About from './About';
 import './App.css';
+import ContactUs from './ContactUs';
+import Home from './home';
+import NaveBar from './Nave';
+import Product from './product';
+
 
 function App() {
+ 
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NaveBar />
+      <Home />
+      <Product />
+      <ContactUs />
+      <footer>
+      Copyright © 2022 Tana Med Medical Equipment Co.,Ltd. All rights reserved.
+      </footer>
     </div>
   );
 }
