@@ -17,7 +17,7 @@ const Product = () => {
                     animate={animateTo}
                     transition={{delay:1.05 , duration:1.5}}
                 >
-                    <img src="http://localhost:3000/painting.png" alt="painting" />
+                    <img src={require('./pics/painting.png')} alt="painting" />
                     <h3>
                         Steel | Painting
                     </h3>
@@ -35,7 +35,7 @@ const Product = () => {
                     animate={animateTo}
                     transition={{delay:1.15 , duration:1.5}}
                 >
-                    <img src="http://localhost:3000/plastic.png" alt="plastic" />
+                    <img src={require('./pics/plastic.png')} alt="plastic" />
                     
                     <h3>
                         Plastic
@@ -53,7 +53,7 @@ const Product = () => {
                     animate={animateTo}
                     transition={{delay:1.25, duration:1.5}}
                 >
-                    <img src="http://localhost:3000/bumper.png" alt="bumper" />
+                    <img src={require('./pics/bumper.png')} alt="bumper" />
                     <h3>
                         Bumper Cover
                     </h3>
@@ -68,7 +68,7 @@ const Product = () => {
                     animate={animateTo}
                     transition={{delay:1.35, duration:1.5}}
                 >
-                    <img src="http://localhost:3000/electric.png" alt="electric" />
+                    <img src={require('./pics/electric.png')} alt="electric" />
                     
                     <h3>
                         Electric System
@@ -85,7 +85,7 @@ const Product = () => {
                     animate={animateTo}
                     transition={{delay:1.45, duration:1.5}}
                 >
-                    <img src="http://localhost:3000/design.png" alt="design" />
+                    <img src={require('./pics/design.png')} alt="design" />
                     <h3>
                         Design
                     </h3>
@@ -103,7 +103,7 @@ const Product = () => {
                     animate={animateTo}
                     transition={{delay:1.55, duration:1.5}}
                 >
-                    <img src="http://localhost:3000/platform.png" alt="platform" />
+                    <img src={require('./pics/platform.png')} alt="platform" />
                     
                     <h3>
                         Platform
@@ -122,7 +122,7 @@ const Product = () => {
                     animate={animateTo}
                     transition={{delay:1.65, duration:1.5}}
                 >
-                    <img src="http://localhost:3000/siderail.png" alt="siderail" />
+                    <img src={require('./pics/siderail.png')} alt="siderail" />
                     <h3>
                         Siderail
                     </h3>
@@ -137,7 +137,7 @@ const Product = () => {
                     animate={animateTo}
                     transition={{delay:1.75, duration:1.5}}
                 >
-                    <img src="http://localhost:3000/castors.png" alt="castors" />
+                    <img src={require('./pics/castors.png')} alt="castors" />
                     
                     <h3>
                         Castors
@@ -158,7 +158,7 @@ const Product = () => {
                     animate={animateTo}
                     transition={{delay:1.85, duration:1.5}}
                 >
-                    <img src="http://localhost:3000/hooks.png" alt="hooks" />
+                    <img src={require('./pics/hooks.png')} alt="hooks" />
                     <h3>
                         Drainage Hooks
                     </h3>
@@ -173,7 +173,7 @@ const Product = () => {
                     animate={animateTo}
                     transition={{delay:1.95,duration:1.5}}
                 >
-                    <img src="http://localhost:3000/pole.png" alt="pole" />
+                    <img src={require('./pics/pole.png')} alt="pole" />
                     
                     <h3>
                         IV pole

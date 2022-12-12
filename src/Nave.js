@@ -20,7 +20,7 @@ const NaveBar = () => {
         <div className="Nave">
                 <nav>
                     <Link to='Home' spy={true} smooth={true} offset={-5000} duration={500} className="HomeNav p">
-                        <img src={require('./pics/logo.png')} alt="LOGO" className='logo' />
+                        <img src={require('./pics/logocom.png')} alt="LOGO" className='logo' />
                         <img src={require('./pics/logophone.png')} alt="LOGOPHONE" className='logophone' />
                     </Link>
                     <div className="navigation">
